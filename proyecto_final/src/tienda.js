@@ -4,6 +4,7 @@ import './App.css';
 const ProductsPage = () => {
   return (
     <>
+        <div className='html'>
       <header>
         <h1 className="nombre-sitio">Tienda <span>Muebles</span></h1>
       </header>
@@ -134,6 +135,7 @@ const ProductsPage = () => {
 
         <p className="copyright">Todos los derechos Reservados, TiendaMuebles</p>
       </footer>
+      </div>
     </>
   );
 };

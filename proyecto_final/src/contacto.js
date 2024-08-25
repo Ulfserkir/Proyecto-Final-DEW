@@ -3,6 +3,7 @@ import './App.css';
 function Contact() {
   return (
     <>
+        <div className='html'>
       <header>
         <h1 className="nombre-sitio">Tienda <span>Muebles</span></h1>
       </header>
@@ -134,6 +135,7 @@ function Contact() {
 
         <p className="copyright">Todos los derechos reservados, TiendaMuebles</p>
       </footer>
+      </div>
     </>
   );
 }

@@ -4,6 +4,7 @@ import './App.css';
 function AboutUsPage() {
   return (
     <>
+        <div className='html'>
       <header>
         <h1 className="nombre-sitio">Tienda <span>Muebles</span></h1>
       </header>
@@ -70,6 +71,7 @@ function AboutUsPage() {
 
         <p className="copyright">Todos los derechos Reservados, TiendaMuebles</p>
       </footer>
+      </div>
     </>
   );
 }

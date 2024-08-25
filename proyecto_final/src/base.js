@@ -3,6 +3,7 @@ import './App.css';
 function App() {
   return (
     <>
+    <div className='html'>
       <header>
         <h1 className="nombre-sitio">Tienda <span>Muebles</span></h1>
       </header>
@@ -81,6 +82,7 @@ function App() {
 
         <p className="copyright">Todos los derechos reservados, TiendaMuebles</p>
       </footer>
+      </div>
     </>
   );
 }

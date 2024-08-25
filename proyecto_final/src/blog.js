@@ -3,6 +3,7 @@ import './App.css';
 function Blog() {
   return (
     <>
+      <div className='html'>
       <header>
         <h1 className="nombre-sitio">Tienda <span>Muebles</span></h1>
       </header>
@@ -112,6 +113,7 @@ function Blog() {
 
         <p className="copyright">Todos los derechos reservados, TiendaMuebles</p>
       </footer>
+      </div>
     </>
   );
 }

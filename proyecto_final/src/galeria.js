@@ -4,6 +4,7 @@ import './App.css';
 function Gallery() {
   return (
     <>
+        <div className='html'></div>
       <header>
         <h1 className="nombre-sitio">Tienda <span>Muebles</span></h1>
       </header>
